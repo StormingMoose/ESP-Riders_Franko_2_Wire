@@ -18,7 +18,7 @@ A4950 Motor Driver
 2 X 6 volt N20 DC motors  
 Meccano parts for Robot  
 6.7 volt meccanoid battery for motors  
-5 volt battery pack for ESO32  
+5 volt battery pack for ESP32  
 
 
 Original Components
