@@ -12,13 +12,14 @@ Repo structure
 
 New Components used
 --------------------
-ESP32 C3
-MPU6050
-A4950 Motor Driver
-2 X 6 volt N20 DC motors
-Meccano parts for Robot.
-6.7 volt meccanoid battery for motors.
-5 volt battery pack for ESO32.
+ESP32 C3  
+MPU6050  
+A4950 Motor Driver  
+2 X 6 volt N20 DC motors  
+Meccano parts for Robot  
+6.7 volt meccanoid battery for motors  
+5 volt battery pack for ESO32  
+
 
 Original Components
 ----------
