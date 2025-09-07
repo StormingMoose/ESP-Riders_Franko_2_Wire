@@ -3,7 +3,7 @@ Franko   - adapted to use 2 wire motor drivers like A4905 or L9110s instead of t
 
 Arduino Self balancing robot  using ESO32 C3
 
-Note
+Note: SDA and SCL default pins did not work for me so I used wire.begin(20,21) instead and interrupt on 10.
 
 Repo structure
 --------------
