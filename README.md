@@ -1,4 +1,4 @@
-Franko   - adapted to use 2 wire motor drivers like A4905 or L9110s instead of the threee wire L298 motor driver.
+Franko   - adapted to use 2 wire motor drivers like A4905 or L9110s instead of the three wire L298 motor driver.
 ======
 
 Arduino Self balancing robot  using ESO32 C3
