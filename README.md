@@ -1,14 +1,26 @@
-Franko
+Franko   - adapted to use 2 wire motor drivers like A4905 or L9110s instead of the threee wire L298 motor driver.
 ======
 
-Arduino Self balancing robot
+Arduino Self balancing robot  using ESO32 C3
+
+Note
 
 Repo structure
 --------------
 * Franko/Franko.ino: Arduino sketch
 * Libraries/*: Libraries should be copied to local Arduino libraries folder
 
-Components
+New Components used
+--------------------
+ESP32 C3
+MPU6050
+A4950 Motor Driver
+2 X 6 volt N20 DC motors
+Meccano parts for Robot.
+6.7 volt meccanoid battery for motors.
+5 volt battery pack for ESO32.
+
+Original Components
 ----------
 * Arduino UNO
 * 6 DOF MPU6050 (GY521) (Accel + Gyro)
