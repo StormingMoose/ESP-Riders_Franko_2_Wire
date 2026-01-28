@@ -7,8 +7,12 @@ Note: SDA and SCL default pins did not work for me so I used wire.begin(20,21) i
 
 Repo structure
 --------------
-* Franko/Franko.ino: Arduino sketch
-* Libraries/*: Libraries should be copied to local Arduino libraries folder
+Update January 2026
+
+* Libraries/*: ONLY the LMotorConttoller2 should be copied to local Arduino libraries folder
+MPU6050 library from electronic cats should be installed
+and reference to include i2cdev.h should be removed
+  
 
 New Components used
 --------------------
