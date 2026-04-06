@@ -42,7 +42,7 @@ float ypr[3];           // [yaw, pitch, roll]   yaw/pitch/roll container and gra
   double kp , ki, kd;
   double prevKp, prevKi, prevKd;
 #endif
-double originalSetpoint = 174.29;
+double originalSetpoint = 174.29;      //   this is so very important and the gyro needs to fixed in place, not able to wiggle like n a breadboard
 double setpoint = originalSetpoint;
 double movingAngleOffset = 0.3;
 double input, output;
@@ -52,7 +52,7 @@ int moveState=0; //0 = balance; 1 = back; 2 = forth
   PID pid(&input, &output, &setpoint, 0, 0, 0, DIRECT);
 #else
  // PID pid(&input, &output, &setpoint, 70, 360, 1.9, DIRECT);
-  PID pid(&input, &output, &setpoint, 50, 350, 4, DIRECT);
+  PID pid(&input, &output, &setpoint, 40, 200, 1, DIRECT);  // originally 50, 350,4
 #endif
 
 
@@ -145,7 +145,7 @@ void setup()
         //setup PID
         
         pid.SetMode(AUTOMATIC);
-        pid.SetSampleTime(10);
+        pid.SetSampleTime(5);               // originally at 10 
         pid.SetOutputLimits(-255, 255);  
     }
     else
