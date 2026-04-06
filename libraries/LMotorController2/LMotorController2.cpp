@@ -92,8 +92,8 @@ void LMotorController2::move(int speed, int minAbsSpeed)
 */
     analogWrite(_ena, speed <= 0 ? (255 - realSpeed ) * _motorAConst : realSpeed * _motorAConst);
     analogWrite(_enb, speed <= 0 ? (255 - realSpeed ) * _motorAConst : realSpeed * _motorBConst);
-    Serial.print("speed ");Serial.print(speed);Serial.print(" realSpeed ");Serial.println(realSpeed);   
-    _currentSpeed = direction * realSpeed;
+//    Serial.print("speed ");Serial.print(speed);Serial.print(" realSpeed ");Serial.println(realSpeed);   
+//    _currentSpeed = direction * realSpeed;
 }
 
 
